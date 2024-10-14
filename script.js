@@ -7,5 +7,9 @@ document.getElementById('my_H1').textContent = 'LEARNING JAVASCRIPT';
 let fullName = "MANIZABAYO Elie";
 document.getElementById('p1').textContent = fullName;
 let age = 26;
-age = window.prompt("what is your age")
 
+
+ const button = document.getElementById('myButton');
+ button.addEventListener('click', function(){
+   console.log("hello world"); 
+ })

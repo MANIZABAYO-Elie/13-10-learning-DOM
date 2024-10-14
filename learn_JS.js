@@ -23,3 +23,7 @@ console.log(students);
 // accepting user input
 //1.window prompt
 //2.professional way or HTML textbox
+
+// Type conversion 
+
+
