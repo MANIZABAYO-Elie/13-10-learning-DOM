@@ -10,3 +10,5 @@ console.log(typeof age);
 let firstName = "Elie";
 console.log(typeof firstName);
 console.log(`my name is ${firstName} and I am ${age} old`);
+let online = true;
+console.log(typeof online);
