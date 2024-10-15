@@ -25,5 +25,6 @@ console.log(students);
 //2.professional way or HTML textbox
 
 // Type conversion 
-
+let num = 123;
+console.log(typeof num);
 
