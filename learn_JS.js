@@ -27,4 +27,9 @@ console.log(students);
 // Type conversion 
 let num = 123;
 console.log(typeof num);
+// Math properties
+let c= 2.155;
+let e = 3;
+  f= Math.round(c);
+  console.log(f);
 
