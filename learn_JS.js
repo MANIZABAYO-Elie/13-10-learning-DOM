@@ -40,3 +40,11 @@ if(age>=18){
 }else{
   onsole.log("You must be 18+ to enter this site ");
 }
+let time = 17;
+let name = "Elie"
+if (time<12) {
+console.log(`Good morning ${name}`);
+  
+}else if(time>12) {
+    console.log(`Good Afternoon ${name}`);
+}
