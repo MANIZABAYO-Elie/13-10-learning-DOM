@@ -33,3 +33,10 @@
 //   f= Math.round(c);
 //   console.log(f);
 
+// if statement
+let age = 25 ;
+if(age>=18){
+  console.log("You are old enough to enter this site ");
+}else{
+  onsole.log("You must be 18+ to enter this site ");
+}
