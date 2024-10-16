@@ -48,3 +48,10 @@ console.log(`Good morning ${name}`);
 }else if(time>12) {
     console.log(`Good Afternoon ${name}`);
 }
+
+let isStudent = false;
+if(isStudent){
+  console.log("you are a student");
+}else{
+  console.log("you are not a student");
+}
