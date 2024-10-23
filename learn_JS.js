@@ -49,7 +49,7 @@ console.log(`Good morning ${name}`);
     console.log(`Good Afternoon ${name}`);
 }
 
-let isStudent = false;
+let isStudent = true;
 if(isStudent){
   console.log("you are a student");
 }else{
