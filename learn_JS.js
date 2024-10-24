@@ -34,24 +34,24 @@
 //   console.log(f);
 
 // if statement
-let age = 25 ;
-if(age>=18){
-  console.log("You are old enough to enter this site ");
-}else{
-  onsole.log("You must be 18+ to enter this site ");
-}
-let time = 17;
-let name = "Elie"
-if (time<12) {
-console.log(`Good morning ${name}`);
+// let age = 25 ;
+// if(age>=18){
+//   console.log("You are old enough to enter this site ");
+// }else{
+//   onsole.log("You must be 18+ to enter this site ");
+// }
+// let time = 17;
+// let name = "Elie"
+// if (time<12) {
+// console.log(`Good morning ${name}`);
   
-}else if(time>12) {
-    console.log(`Good Afternoon ${name}`);
-}
+// }else if(time>12) {
+//     console.log(`Good Afternoon ${name}`);
+// }
 
-let isStudent = true;
-if(isStudent){
-  console.log("you are a student");
-}else{
-  console.log("you are not a student");
-}
+// let isStudent = true;
+// if(isStudent){
+//   console.log("you are a student");
+// }else{
+//   console.log("you are not a student");
+// }
