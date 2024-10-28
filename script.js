@@ -9,7 +9,7 @@
 // let age = 26;
 
 
- const button = document.getElementById('myButton');
- button.addEventListener('click', function(){
-   console.log("hello world"); 
- })
+//  const button = document.getElementById('myButton');
+//  button.addEventListener('click', function(){
+//    console.log("hello world"); 
+//  })
