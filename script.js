@@ -13,3 +13,7 @@
 //  button.addEventListener('click', function(){
 //    console.log("hello world"); 
 //  })
+
+
+const myCheckBox = document.getElementById('myCheckBox');
+const visaBtn = document.getElementById('visaBtn')
