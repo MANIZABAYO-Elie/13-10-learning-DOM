@@ -19,3 +19,6 @@ const myCheckBox = document.getElementById('myCheckBox');
 const visaBtn = document.getElementById('visaBtn');
 const masterCardBtn = document.getElementById('masterCardBtn');
 const PayPalBtn = document.getElementById('PayPalBtn');
+const subResult = document.getElementById('subResult');
+const paymentResult = document.getElementById('paymentResult');
+
