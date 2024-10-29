@@ -21,4 +21,9 @@ const masterCardBtn = document.getElementById('masterCardBtn');
 const PayPalBtn = document.getElementById('PayPalBtn');
 const subResult = document.getElementById('subResult');
 const paymentResult = document.getElementById('paymentResult');
+const mySubmit = document.getElementById('mySubmit');
+
+mySubmit.onclick = function(){
+    
+}
 
