@@ -6,5 +6,6 @@
 let time = 16;
 let greeting = time<12 ? "Good morning" :"Good afternoon";
 console.log(greeting);
-let isStudent = true;
-let message = isStudent ? "you are student":"you are not student"
+let isStudent = false;
+let message = isStudent ? "you are student":"you are not student";
+console.log(message);
