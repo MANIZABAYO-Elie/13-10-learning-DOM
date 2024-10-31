@@ -9,3 +9,12 @@
 // let isStudent = false;
 // let message = isStudent ? "you are student":"you are not student";
 // console.log(message);
+let day = 1;
+switch (day) {
+    case value:
+        
+        break;
+
+    default:
+        break;
+}
