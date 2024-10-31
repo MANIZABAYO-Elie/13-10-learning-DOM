@@ -11,8 +11,8 @@
 // console.log(message);
 let day = 1;
 switch (day) {
-    case value:
-        
+    case 1:
+        console.log("it is monday");
         break;
 
     default:
