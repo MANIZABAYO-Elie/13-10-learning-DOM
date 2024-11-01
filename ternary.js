@@ -20,4 +20,10 @@ switch (day) {
         case 3:
             console.log("it is Wednesday");
         break;
+        case 4:
+            console.log("it is Thursday");
+        break;
+        case 5:
+            console.log("it is Friday");
+        break;
 }
