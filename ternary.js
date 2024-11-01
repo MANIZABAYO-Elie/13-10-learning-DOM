@@ -14,7 +14,7 @@ switch (day) {
     case 1:
         console.log("it is monday");
         break;
-
-    default:
+        case 2:
+            console.log("it Tuesday");
         break;
 }
