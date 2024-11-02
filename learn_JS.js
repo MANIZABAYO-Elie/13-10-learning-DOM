@@ -55,4 +55,9 @@
 // }else{
 //   console.log("you are not a student");
 // }
+
+
 //strings methods
+let str = "elie";
+str.charAt(0);
+console.log(str.charAt(0));
