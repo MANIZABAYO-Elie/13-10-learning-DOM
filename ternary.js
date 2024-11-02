@@ -9,7 +9,7 @@
 // let isStudent = false;
 // let message = isStudent ? "you are student":"you are not student";
 // console.log(message);
-let day = 2;
+let day = 5;
 switch (day) {
     case 1:
         console.log("it is monday");

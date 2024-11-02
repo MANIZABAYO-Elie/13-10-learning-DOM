@@ -55,3 +55,4 @@
 // }else{
 //   console.log("you are not a student");
 // }
+//strings methods
