@@ -61,3 +61,4 @@
 let str = "elie";
 str.charAt(0);
 console.log(str.charAt(0));
+// string slicing
