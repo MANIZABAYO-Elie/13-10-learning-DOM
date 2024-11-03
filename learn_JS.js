@@ -65,3 +65,4 @@ console.log(str.charAt(0));
 const fullName = "MANIZABAYO Elie"
 let lastName = fullName.slice(0,10);
 console.log(lastName);
+let firstName = fullName.slice(12,15);
