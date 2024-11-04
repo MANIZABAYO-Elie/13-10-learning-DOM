@@ -58,12 +58,13 @@
 
 
 //strings methods
-let str = "elie";
-str.charAt(0);
-console.log(str.charAt(0));
+// let str = "elie";
+// str.charAt(0);
+// console.log(str.charAt(0));
 // string slicing
 // const fullName = "MANIZABAYO Elie"
 // let lastName = fullName.slice(0,10);
 // console.log(lastName);
 // let firstName = fullName.slice(11);
 // console.log(firstName);
+const temp = 25;
