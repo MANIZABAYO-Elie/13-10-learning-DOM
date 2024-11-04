@@ -67,4 +67,9 @@
 // console.log(lastName);
 // let firstName = fullName.slice(11);
 // console.log(firstName);
-const temp = 25;
+const temp = 40;
+if(temp>0){
+    console.log("Weather is Good");
+}else if(temp<=30){
+   console.log("Weather is bad");
+}
