@@ -67,10 +67,16 @@
 // console.log(lastName);
 // let firstName = fullName.slice(11);
 // console.log(firstName);
-const temp = 20;
-if(temp>0 && temp<=30){
-    console.log("Weather is Good");
-}
-else{
-    console.log("Weather is bad");
+// const temp = 20;
+// if(temp>0 && temp<=30){
+//     console.log("Weather is Good");
+// }
+// else{
+//     console.log("Weather is bad");
+// }
+const pi = 3.14;
+if(pi != "3.14"){
+    console.log("this is not pi");
+}else{
+    console.log("this pi");
 }
