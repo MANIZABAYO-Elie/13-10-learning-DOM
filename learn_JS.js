@@ -82,6 +82,6 @@
 //     console.log("this pi");
 // }
  for (let i = 0; i<=4; i++) {
-console.log("hello world");
+console.log(i);
     
  }
