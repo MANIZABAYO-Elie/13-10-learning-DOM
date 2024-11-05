@@ -74,9 +74,14 @@
 // else{
 //     console.log("Weather is bad");
 // }
-const pi = 3.14;
-if(pi != "3.14"){
-    console.log("this is not pi");
-}else{
-    console.log("this pi");
-}
+
+// const pi = 3.14;
+// if(pi != "3.14"){
+//     console.log("this is not pi");
+// }else{
+//     console.log("this pi");
+// }
+ for (let i = 0; i<=4; i++) {
+console.log("hello world");
+    
+ }
