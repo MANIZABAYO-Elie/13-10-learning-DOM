@@ -88,7 +88,8 @@ console.log("hello world");
  for (let i = 1; i<=20; i++) {
     if(i===13){
 
-        continue;
+        break;
     }
+    console.log("hello world");
  }   
      
