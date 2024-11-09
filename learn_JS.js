@@ -85,9 +85,11 @@
 
 //  functions expressions
 
-const mutiplyNumbers = function(a,b){
-    return a*b;
+// const mutiplyNumbers = function(a,b){
+//     return a*b;
     
 
-}
-console.log(mutiplyNumbers(12,10));
+// }
+// console.log(mutiplyNumbers(12,10));
+ const multiplyTwoNumers = (a,b) =>a*b;
+console.log(multiplyTwoNumers(10,10));
