@@ -83,8 +83,11 @@
 // }
 //  
 
-function addTwoNum(x,y){
-    return x+y;
+//  functions expressions
+
+const mutiplyNumbers = function(){
+    return num1*num2;
+    
+
 }
-result = addTwoNum(10,20);
-console.log(result);
+console.log(mutiplyNumbers(12,10));
