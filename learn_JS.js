@@ -85,8 +85,8 @@
 
 //  functions expressions
 
-const mutiplyNumbers = function(){
-    return num1*num2;
+const mutiplyNumbers = function(a,b){
+    return a*b;
     
 
 }
