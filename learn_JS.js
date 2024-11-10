@@ -95,4 +95,5 @@
 // console.log(multiplyTwoNumers(10,10));
 let numbers = [4,7,11,19,20];
 let maxNumber = Math.max(...numbers);
+let minNumber = Math.min(...numbers)
 console.log(maxNumber);
