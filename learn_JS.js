@@ -91,5 +91,8 @@
 
 // }
 // console.log(mutiplyNumbers(12,10));
- const multiplyTwoNumers = (a,b) =>a*b;
-console.log(multiplyTwoNumers(10,10));
+//  const multiplyTwoNumers = (a,b) =>a*b;
+// console.log(multiplyTwoNumers(10,10));
+let numbers = [4,7,11,19,20];
+let maxNumber = Math.max(...numbers);
+console.log(maxNumber);
