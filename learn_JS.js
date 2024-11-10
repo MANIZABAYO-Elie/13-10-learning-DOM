@@ -97,3 +97,4 @@ let numbers = [4,7,11,19,20];
 let maxNumber = Math.max(...numbers);
 let minNumber = Math.min(...numbers)
 console.log(maxNumber);
+console.log(minNumber);
