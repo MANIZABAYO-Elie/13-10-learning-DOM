@@ -98,3 +98,4 @@ let maxNumber = Math.max(...numbers);
 let minNumber = Math.min(...numbers)
 console.log(maxNumber);
 console.log(minNumber);
+// random password
