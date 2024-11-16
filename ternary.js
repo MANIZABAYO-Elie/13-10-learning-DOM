@@ -26,4 +26,7 @@ switch (day) {
         case 5:
             console.log("it is Friday");
         break;
+        case 6:
+            console.log("its saturday");
+        break;
 }
