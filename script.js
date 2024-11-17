@@ -25,20 +25,20 @@ const mySubmit = document.getElementById('mySubmit');
 
 mySubmit.onclick = function(){
     if(myCheckBox.checked){
-        subResult.textContent = "you have subscribed"
+        subResult.textContent = "You have subscribed"
     }else{
-        subResult.textContent = "you have not subscribed"
+        subResult.textContent = "You have not subscribed"
     }
     if(visaBtn.checked){
-        paymentResult.textContent = "you are paying with VISA"
+        paymentResult.textContent = "You are paying with VISA"
     }else if(masterCardBtn.checked){
-         paymentResult.textContent = "you are paying with mastercard"
+         paymentResult.textContent = "You are paying with mastercard"
 
     } else if(PayPalBtn.checked){
-         paymentResult.textContent = "you are paying with PayPal"
+         paymentResult.textContent = "You are paying with PayPal"
         
     }else{
-        paymentResult.textContent = "you must select a payment type"
+        paymentResult.textContent = "You must select a payment type"
     }
 }
 
