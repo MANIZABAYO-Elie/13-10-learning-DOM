@@ -9,29 +9,32 @@
 // let isStudent = false;
 // let message = isStudent ? "you are student":"you are not student";
 // console.log(message);
-let day = 2;
-switch (day) {
-    case 1:
-        console.log("it is monday");
-        break;
-        case 2:
-            console.log("it Tuesday");
-        break;
-        case 3:
-            console.log("it is Wednesday");
-        break;
-        case 4:
-            console.log("it is Thursday");
-        break;
-        case 5:
-            console.log("it is Friday");
-        break;
-        case 6:
-            console.log("its Saturday");
-        break;
-        case 7:
-            console.log("its Sunday");
-        break;
-}
+// let day = 2;
+// switch (day) {
+//     case 1:
+//         console.log("it is monday");
+//         break;
+//         case 2:
+//             console.log("it Tuesday");
+//         break;
+//         case 3:
+//             console.log("it is Wednesday");
+//         break;
+//         case 4:
+//             console.log("it is Thursday");
+//         break;
+//         case 5:
+//             console.log("it is Friday");
+//         break;
+//         case 6:
+//             console.log("its Saturday");
+//         break;
+//         case 7:
+//             console.log("its Sunday");
+//         break;
+// }
 
-console.log(day);
+// console.log(day);
+//arrow functions 
+const getSum = (a,b) => a+b;
+console.log(getSum(12,10));
