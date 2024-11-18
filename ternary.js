@@ -34,4 +34,4 @@ switch (day) {
         break;
 }
 
-git
+console.log(day);
