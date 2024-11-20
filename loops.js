@@ -13,16 +13,19 @@
 //     return sum ;
 // }
 // console.log(findSum(numbers));
-const array = [1,2,3,4,9,0,6,7,11,13,17,15,20,22,26,25];
-const newArray = []
 
-function getArrayDivisibleByTwo(array){
-    for (let i = 0; i < array.length; i++) {
-        if(array[i]%2===0) {
-    newArray[i].push(array[i])
+const originalArray = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+function getNumbersDivisibleByTwo(originalArray) {
+   
+    const divisibleByTwoArray = [];
+    for (let i = 0; i < originalArray.length; i++) {
+        
+        if (originalArray[i] % 2 === 0) {
+            
+            divisibleByTwoArray.push(originalArray[i]);
         }
-        return newArray;
     }
-    console.log(getArrayDivisibleByTwo(array));
+    
+    return divisibleByTwoArray;
 }
-;
+console.log( getNumbersDivisibleByTwo(originalArray));
