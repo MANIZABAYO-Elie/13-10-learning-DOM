@@ -15,10 +15,14 @@
 // console.log(findSum(numbers));
 const array = [1,2,3,4,9,0,6,7,11,13,17,15,20,22,26,25];
 const newArray = []
-for (let i = 0; i < array.length; i++) {
-    if(i<15) {
-array.push(i);
+
+function getArrayDivisibleByTwo(array){
+    for (let i = 0; i < array.length; i++) {
+        if(array[i]%2===0) {
+    newArray[i].push(array[i])
+        }
+        return newArray;
     }
-    return array;
+    console.log(getArrayDivisibleByTwo(array));
 }
-console.log(array);
+;
