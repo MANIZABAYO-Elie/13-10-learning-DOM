@@ -105,7 +105,7 @@
 
 // functions
 
-function multiplyTwoNumers(num1, num2){
-    return num1*num2
-}
-console.log(multiplyTwoNumers(10,15));  
+// function multiplyTwoNumers(num1, num2){
+//     return num1*num2
+// }
+// console.log(multiplyTwoNumers(10,15));  
