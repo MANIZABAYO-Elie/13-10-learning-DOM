@@ -110,6 +110,10 @@
 // }
 // console.log(multiplyTwoNumers(10,15)); 
 const addTwoNumbers = function(a,b){
-    return a+b
+    return a+b;
 }
 console.log(addTwoNumbers(10,11));
+const add = (a,b)=>{
+    return a+b;
+}
+console.log(add(100,50));
