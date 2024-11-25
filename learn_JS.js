@@ -108,4 +108,8 @@
 // function multiplyTwoNumers(num1, num2){
 //     return num1*num2
 // }
-// console.log(multiplyTwoNumers(10,15));  
+// console.log(multiplyTwoNumers(10,15)); 
+const addTwoNumbers = function(a,b){
+    return a+b
+}
+console.log(addTwoNumbers(10,11));
