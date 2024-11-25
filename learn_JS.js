@@ -109,11 +109,20 @@
 //     return num1*num2
 // }
 // console.log(multiplyTwoNumers(10,15)); 
-const addTwoNumbers = function(a,b){
-    return a+b;
+// const addTwoNumbers = function(a,b){
+//     return a+b;
+// }
+// console.log(addTwoNumbers(10,11));
+// const add = (a,b)=>{
+//     return a+b;
+// }
+// console.log(add(100,50));
+
+//scope
+function doSomething(){
+    let x = 12;
+    let y= 17;
+    let z= 11;
+    console.log(x,y,z);
 }
-console.log(addTwoNumbers(10,11));
-const add = (a,b)=>{
-    return a+b;
-}
-console.log(add(100,50));
+doSomething();
