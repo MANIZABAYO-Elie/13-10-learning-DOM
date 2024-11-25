@@ -118,11 +118,11 @@
 // }
 // console.log(add(100,50));
 
-//scope
+// global scope
+let x = 12;
+let y= 17;
+let z= 11;
 function doSomething(){
-    let x = 12;
-    let y= 17;
-    let z= 11;
-    console.log(x,y,z);
+    return x*y*z
 }
 doSomething();
