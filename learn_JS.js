@@ -119,10 +119,15 @@
 // console.log(add(100,50));
 
 // global scope
-let x = 12;
-let y= 17;
-let z= 11;
-function doSomething(){
-    return x*y*z
+// function doSomething(x,y,z){
+//     return x*y*z
+// }
+
+// console.log(doSomething(9,2,7));
+
+const cube = function(x){
+    return x**3
+
 }
-doSomething();
+const numbers =[1,2,4,5,6]
+console.log(map(cube, numbers));
