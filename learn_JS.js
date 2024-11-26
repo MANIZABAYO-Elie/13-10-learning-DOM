@@ -125,9 +125,16 @@
 
 // console.log(doSomething(9,2,7));
 
-const cube = function(x){
-    return x**3
+// const cube = function(x){
+//     return x*x*x ;
 
-}
-const numbers =[1,2,4,5,6]
-console.log(map(cube, numbers));
+// }
+// const numbers =[1,2,4,5,6]
+// console.log(Map(cube, numbers));
+
+const cube = function (x) {
+    return x * x * x;
+  };
+  
+  const numbers = [0, 1, 2, 5, 10];
+  console.log(map(cube, numbers)); // [0, 1, 8, 125, 1000]
