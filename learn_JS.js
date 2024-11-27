@@ -148,3 +148,8 @@ function factorial(n){
     }
 }
 console.log(factorial(1));
+function validateEmail(email){
+if(email===""){
+    
+}
+}
