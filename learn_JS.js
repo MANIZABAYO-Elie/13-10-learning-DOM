@@ -140,19 +140,25 @@
 //   console.log(map(cube, numbers)); // [0, 1, 8, 125, 1000]
 //   console.log(cube());
 
-function factorial(n){
-    if(n===0|| n===1){
-       return 1
-    }else{
-        return  n*factorial(n-1)
-    }
-}
-console.log(factorial(1));
+
+// function factorial(n){
+//     if(n===0|| n===1){
+//        return 1
+//     }else{
+//         return  n*factorial(n-1)
+//     }
+// }
+// console.log(factorial(1));
 
 
-function validateEmail(email){
-if(email===""){
-    console.log("enter a valid credentials");
+// function validateEmail(email){
+// if(email===""){
+//     console.log("enter a valid credentials");
+// }
+// }
+// validateEmail("")
+
+function addTwoNumbers(a,b){
+    return a+b;
 }
-}
-validateEmail("")
+console.log(addTwoNumbers(10,13));
