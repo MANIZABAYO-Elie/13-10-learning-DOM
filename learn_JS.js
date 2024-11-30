@@ -162,3 +162,6 @@ function addTwoNumbers(a,b){
 
 }
 console.log(addTwoNumbers(10,17));
+const myArray = [[1,2,3,4,5][8,9,10]]
+const myData  =myArray[0][0];
+console.log(myData);
