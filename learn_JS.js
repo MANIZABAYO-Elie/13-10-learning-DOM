@@ -173,4 +173,4 @@ function isLess(a,b){
         return false;
     }
 }
-console.log(isLess(12,9));  
+console.log(isLess(19,21));  
