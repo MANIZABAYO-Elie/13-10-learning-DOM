@@ -157,12 +157,19 @@
 // }
 // }
 // validateEmail("")
-function addTwoNumbers(a,b){
-    return a+b;
+// function addTwoNumbers(a,b){
+//     return a+b;
 
+// }
+// console.log(addTwoNumbers(10,17));
+// const myArray = [[1,2,3,4,5][8,9,10]]
+// const myData  =myArray[0][0];
+// console.log(myData);
+
+function isLess(a,b){
+    if(a>b){
+       return true;
+    }else{
+        return false;
+    }
 }
-console.log(addTwoNumbers(10,17));
-const myArray = [[1,2,3,4,5][8,9,10]]
-const myData  =myArray[0][0];
-console.log(myData);
-function
