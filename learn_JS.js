@@ -177,7 +177,7 @@
 
 // strings methods
 
-const string = "web developer";
+const string = "web development";
 if (string.includes('developer')) {
     console.log(' string includes developer');
 }else{
