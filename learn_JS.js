@@ -187,3 +187,5 @@ if (string.includes('developer')) {
 const browserType = "mozilla";
 const updated = browserType.replace("moz", "van");
 console.log(updated);
+const shopping = ["bread", "milk", "cheese", "hummus", "noodles"];
+console.log(shopping.length);
