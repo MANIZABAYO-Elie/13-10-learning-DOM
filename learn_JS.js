@@ -167,10 +167,19 @@
 // console.log(myData);
 // 
 
-const array = [1,3,7,10,15,17,20,21]
-let total =0
-for (let index = 0; index < array.length; index++) {
-    total += array[index];
+// const array = [1,3,7,10,15,17,20,21]
+// let total =0
+// for (let index = 0; index < array.length; index++) {
+//     total += array[index];
     
+// }
+// console.log(total);
+
+// strings methods
+
+const string = "web developer";
+if (string.includes('developer')) {
+    console.log(' string includes developer');
+}else{
+    console.log('string does not includes developer');
 }
-console.log(total);
