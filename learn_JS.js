@@ -183,3 +183,7 @@ if (string.includes('developer')) {
 }else{
     console.log('string does not includes developer');
 }
+
+const browserType = "mozilla";
+const updated = browserType.replace("moz", "van");
+console.log(updated);
