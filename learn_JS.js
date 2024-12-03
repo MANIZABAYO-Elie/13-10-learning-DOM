@@ -206,7 +206,17 @@
   
 //   
 
-const data = "Manchester,London,Liverpool,Birmingham,Leeds,Carlisle";
-newData = data.split(",");
-console.log(newData);
-console.log(newData.length);
+// const data = "Manchester,London,Liverpool,Birmingham,Leeds,Carlisle";
+// newData = data.split(",");
+// console.log(newData);
+// console.log(newData.length);
+
+let shoppingDone = true;
+let childsAllowance;
+
+if (shoppingDone === true) {
+  childsAllowance = 10;
+} else {
+  childsAllowance = 5;
+}
+console.log(childsAllowance);
