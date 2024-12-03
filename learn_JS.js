@@ -177,15 +177,22 @@
 
 // strings methods
 
-const string = "web development";
-if (string.includes('developer')) {
-    console.log(' string includes developer');
-}else{
-    console.log('string does not includes developer');
-}
+// const string = "web development";
+// if (string.includes('developer')) {
+//     console.log(' string includes developer');
+// }else{
+//     console.log('string does not includes developer');
+// }
 
-const browserType = "mozilla";
-const updated = browserType.replace("moz", "van");
-console.log(updated);
-const shopping = ["bread", "milk", "cheese", "hummus", "noodles"];
-console.log(shopping.length);
+// const browserType = "mozilla";
+// const updated = browserType.replace("moz", "van");
+// console.log(updated);
+// const shopping = ["bread", "milk", "cheese", "hummus", "noodles"];
+// console.log(shopping.length);
+
+const cities = ["Manchester", "Liverpool", "Edinburgh", "Carlisle"];
+const index = cities.indexOf("Liverpool");
+if (index !== -1) {
+  cities.splice(index, 2);
+}
+console.log(cities);
