@@ -204,9 +204,9 @@
 //   const longer = cities.filter(isLong);
 //   console.log(longer); // [ "Liverpool", "Edinburgh" ]
   
-  const cities = ["London", "Liverpool", "Totnes", "Edinburgh"];
-  const longCities= cities.filter(generateLongCities)
-  function generateLongCities(city){
-    return city.length>8;
-  }
-  console.log(longCities);
+//   
+
+const data = "Manchester,London,Liverpool,Birmingham,Leeds,Carlisle";
+newData = data.split(",");
+console.log(newData);
+console.log(newData.length);
