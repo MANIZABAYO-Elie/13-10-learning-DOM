@@ -190,9 +190,23 @@
 // const shopping = ["bread", "milk", "cheese", "hummus", "noodles"];
 // console.log(shopping.length);
 
-const cities = ["Manchester", "Liverpool", "Edinburgh", "Carlisle"];
-const index = cities.indexOf("Liverpool");
-if (index !== -1) {
-  cities.splice(index, 2);
-}
-console.log(cities);
+// const cities = ["Manchester", "Liverpool", "Edinburgh", "Carlisle"];
+// const index = cities.indexOf("Liverpool");
+// if (index !== -1) {
+//   cities.splice(index, 2);
+// }
+// console.log(cities);
+
+// function isLong(city) {
+//     return city.length > 8;
+//   }
+//   const cities = ["London", "Liverpool", "Totnes", "Edinburgh"];
+//   const longer = cities.filter(isLong);
+//   console.log(longer); // [ "Liverpool", "Edinburgh" ]
+  
+  const cities = ["London", "Liverpool", "Totnes", "Edinburgh"];
+  const longCities= cities.filter(generateLongCities)
+  function generateLongCities(city){
+    return city.length>8;
+  }
+  console.log(longCities);
