@@ -29,3 +29,5 @@ function getNumbersDivisibleByTwo(originalArray) {
     return divisibleByTwoArray;
 }
 console.log( getNumbersDivisibleByTwo(originalArray));
+
+// while loops 
