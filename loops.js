@@ -46,9 +46,9 @@ for (let i = 0; i <5; i++) {
 }
 console.log(ourArray);
 
-let cheese = "Cheddar";
+let cheese = "milk";
 
-if (cheese) {
+if (cheese==="chiddar") {
   console.log("Yay! Cheese available for making cheese on toast.");
 } else {
   console.log("No cheese on toast for you today.");
