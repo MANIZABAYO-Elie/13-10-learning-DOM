@@ -39,31 +39,35 @@ while (i<5) {
 }
 console.log(myArray);
 
-const ourArray = [];
-for (let i = 0; i <5; i++) {
-    ourArray.push(i);
+// const ourArray = [];
+// for (let i = 0; i <5; i++) {
+//     ourArray.push(i);
     
-}
-console.log(ourArray);
+// }
+// console.log(ourArray);
 
-let cheese = "milk";
+// let cheese = "milk";
 
-if (cheese==="chiddar") {
-  console.log("Yay! Cheese available for making cheese on toast.");
-} else {
-  console.log("No cheese on toast for you today.");
-}
+// if (cheese==="chiddar") {
+//   console.log("Yay! Cheese available for making cheese on toast.");
+// } else {
+//   console.log("No cheese on toast for you today.");
+// }
 
-for (let i = 0; i < 100; i++) {
-    ctx.beginPath();
-    ctx.fillStyle = "rgb(255 0 0 / 50%)";
-    ctx.arc(
-      random(canvas.width),
-      random(canvas.height),
-      random(50),
-      0,
-      2 * Math.PI,
-    );
-    ctx.fill();
-  }
+// for (let i = 0; i < 100; i++) {
+//     ctx.beginPath();
+//     ctx.fillStyle = "rgb(255 0 0 / 50%)";
+//     ctx.arc(
+//       random(canvas.width),
+//       random(canvas.height),
+//       random(50),
+//       0,
+//       2 * Math.PI,
+//     );
+//     ctx.fill();
+//   }
+ // converting string to a number
+ let myNumber = "74";
+myNumber = Number(myNumber) + 3;
+console.log(myNumber);
   
