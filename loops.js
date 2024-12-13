@@ -86,3 +86,16 @@ function JSClock() {
   return temp;
 }
 JSClock()
+
+function factorials(n) {
+  // Base case: if n is 0
+  // factorial is 1
+  if (n === 0) {
+      return 1;
+  }
+  // Recursive case: calculate factorial by the multiplying n with the factorial of (n-1)
+  else {
+      return n * factorials(n - 1);
+  }
+}
+console.log(factorials(5));
