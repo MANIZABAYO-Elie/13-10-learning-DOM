@@ -22,6 +22,7 @@ const PayPalBtn = document.getElementById('PayPalBtn');
 const subResult = document.getElementById('subResult');
 const paymentResult = document.getElementById('paymentResult');
 const mySubmit = document.getElementById('mySubmit');
+const changeColor =document.getElementById('changeColor');
 
 mySubmit.onclick = function(){
     if(myCheckBox.checked){
@@ -41,4 +42,11 @@ mySubmit.onclick = function(){
         paymentResult.textContent = "You must select a payment type"
     }
 }
-
+function random(number) {
+    return Math.floor(Math.random() * (number + 1));
+  }
+  
+  changeColor.addEventListener("click", () => {
+    const rndCol = `rgb(${random(255)} ${random(255)} ${random(255)})`;
+    document.body.style.backgroundColor = rndCol;
+  });
