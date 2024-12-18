@@ -110,3 +110,12 @@ for (let step = 0; step < 5; step++) {
 const myText = "The weather is cold";
 const newString = myText.replace("cold", "warm");
 console.log(newString);
+function sayHello() {
+  return "Hello, ";
+}
+function greeting(helloMessage, name) {
+  console.log(helloMessage() + name);
+}
+// Pass `sayHello` as an argument to `greeting` function
+greeting(sayHello, "JavaScript!");
+// Hello, JavaScript!
