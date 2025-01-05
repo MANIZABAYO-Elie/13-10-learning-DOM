@@ -71,51 +71,62 @@ console.log(myArray);
 // myNumber = Number(myNumber) + 3;
 // console.log(myNumber);
   
-function JSClock() {
-  const time = new Date();
-  const hour = time.getHours();
-  const minute = time.getMinutes();
-  const second = time.getSeconds();
-  let temp = String(hour % 12);
-  if (temp === "0") {
-    temp = "12";
-  }
-  temp += (minute < 10 ? ":0" : ":") + minute;
-  temp += (second < 10 ? ":0" : ":") + second;
-  temp += hour >= 12 ? " P.M." : " A.M.";
-  return temp;
-}
-JSClock()
+// function JSClock() {
+//   const time = new Date();
+//   const hour = time.getHours();
+//   const minute = time.getMinutes();
+//   const second = time.getSeconds();
+//   let temp = String(hour % 12);
+//   if (temp === "0") {
+//     temp = "12";
+//   }
+//   temp += (minute < 10 ? ":0" : ":") + minute;
+//   temp += (second < 10 ? ":0" : ":") + second;
+//   temp += hour >= 12 ? " P.M." : " A.M.";
+//   return temp;
+// }
+// JSClock()
 
-function factorials(n) {
-  // Base case: if n is 0
-  // factorial is 1
-  if (n === 0) {
-      return 1;
-  }
-  // Recursive case: calculate factorial by the multiplying n with the factorial of (n-1)
-  else {
-      return n * factorials(n - 1);
-  }
-}
-console.log(factorials(5));
+// function factorials(n) {
+//   // Base case: if n is 0
+//   // factorial is 1
+//   if (n === 0) {
+//       return 1;
+//   }
+//   // Recursive case: calculate factorial by the multiplying n with the factorial of (n-1)
+//   else {
+//       return n * factorials(n - 1);
+//   }
+// }
+// console.log(factorials(5));
 
-// loops
+// // loops
 
-for (let step = 0; step < 5; step++) {
-  // Runs 5 times, with values of step 0 through 4.
-  console.log("Walking east one step");
+// for (let step = 0; step < 5; step++) {
+//   // Runs 5 times, with values of step 0 through 4.
+//   console.log("Walking east one step");
+// }
+// // text replacement
+// const myText = "The weather is cold";
+// const newString = myText.replace("cold", "warm");
+// console.log(newString);
+// function sayHello() {
+//   return "Hello, ";
+// }
+// function greeting(helloMessage, name) {
+//   console.log(helloMessage() + name);
+// }
+// // Pass `sayHello` as an argument to `greeting` function
+// greeting(sayHello, "JavaScript!");
+// // Hello, JavaScript!
+
+// conditionals
+const choice = "sunny";
+const temperature = 100;
+if (choice === "sunny") {
+  if (temperature < 86) {
+    console.log(`It is ${temperature} degrees outside — nice and sunny. Let's go out to the beach, or the park, and get an ice cream.`); 
+  } else if (temperature >= 86) {
+    console.log(`It is ${temperature} degrees outside — REALLY HOT! If you want to go outside, make sure to put some sunscreen on.`); 
+  }
 }
-// text replacement
-const myText = "The weather is cold";
-const newString = myText.replace("cold", "warm");
-console.log(newString);
-function sayHello() {
-  return "Hello, ";
-}
-function greeting(helloMessage, name) {
-  console.log(helloMessage() + name);
-}
-// Pass `sayHello` as an argument to `greeting` function
-greeting(sayHello, "JavaScript!");
-// Hello, JavaScript!
