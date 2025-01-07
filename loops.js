@@ -122,7 +122,7 @@ console.log(myArray);
 
 // conditionals
 const choice = "sunny";
-const temperature = 100;
+const temperature = 90;
 if (choice === "sunny") {
   if (temperature < 86) {
     console.log(`It is ${temperature} degrees outside — nice and sunny. Let's go out to the beach, or the park, and get an ice cream.`); 
@@ -130,3 +130,4 @@ if (choice === "sunny") {
     console.log(`It is ${temperature} degrees outside — REALLY HOT! If you want to go outside, make sure to put some sunscreen on.`); 
   }
 }
+
